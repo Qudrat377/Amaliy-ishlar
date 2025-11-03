@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: rgb(49, 49, 64);
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.maze-container {
+  display: grid;
+  margin: 20px auto;
+  grid-template-columns: repeat(10, 40px);
+  grid-template-rows: repeat(10, 40px);
+  gap: 2px;
+  width: max-content;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.wall {
+  background-color: #333;
+}
+
+.player {
+  background-color: #3498db;
+}
+
+.goal {
+  background-color: #2ecc71;
+}
+
+.status {
+  font-size: 20px;
+  color: green;
+}

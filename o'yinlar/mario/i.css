@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #87CEEB;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin: 10px 0;
+}
+
+.game {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #add8e6;
+  overflow: hidden;
+  border: 3px solid #333;
+}
+
+.player {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  bottom: 50px;
+  left: 100px;
+  border-radius: 20%;
+}
+
+.ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: green;
+}

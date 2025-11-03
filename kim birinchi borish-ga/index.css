@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+}
+
+body {
+  background-color: rgb(144, 144, 156);
+}
+
+.father {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+.inner {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+
+  background-color: rgb(106, 106, 118);
+}
+
+.bt1 {
+    margin-top: 50px;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.div1 {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+     display: flex; align-items: center; gap: 10px
+}
